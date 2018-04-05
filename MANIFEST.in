@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include encuestaapp *.css
+recursive-include encuestaapp *.csv
+recursive-include encuestaapp *.html
+recursive-include encuestaapp *.ico
+recursive-include encuestaapp *.js
+recursive-include encuestaapp *.json
+recursive-include encuestaapp *.md
+recursive-include encuestaapp *.png
+recursive-include encuestaapp *.py
+recursive-include encuestaapp *.svg
+recursive-include encuestaapp *.txt
+recursive-exclude encuestaapp *.pyc
